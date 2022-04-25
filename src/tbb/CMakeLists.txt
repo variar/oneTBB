@@ -120,7 +120,7 @@ target_link_libraries(tbb
     ${TBB_COMMON_LINK_LIBS}
 )
 
-tbb_install_target(tbb)
+#tbb_install_target(tbb)
 
 if (MSVC)
     # Create a copy of target linker file (tbb<ver>[_debug].lib) with legacy name (tbb[_debug].lib)
