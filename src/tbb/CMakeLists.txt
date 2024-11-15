@@ -136,7 +136,7 @@ if(TBB_BUILD_APPLE_FRAMEWORKS)
         MACOSX_FRAMEWORK_SHORT_VERSION_STRING ${TBB_BINARY_VERSION})
 endif()
 
-tbb_install_target(tbb)
+#tbb_install_target(tbb)
 
 if (TBB_INSTALL)
     if (MSVC)
